@@ -1,14 +1,27 @@
-public class Proyek {
+public class Proyek extends Orang{
 	private Programmer[] programmer;
 	private Tugas[] tugas;
+	private int jumlahProgrammer;
+	private int jumlahTugas;
 	
 	public void addProgrammer(Programmer p){
-	
+		jumlahProgrammer++;
+		programmer[jumlahProgrammer] = p;
 	}
 	public void createTugas(String tugas) {
-	
+		jumlahTugas++;
+		this.tugas[jumlahTugas] = Tugas(tugas);
 	}
 	public void removeProgrammer(Programmer p){
-	
+		int i = 1;
+		while (programmer[i] <> p) {
+			i++;
+		}
+		if(programmer[i] = p) {
+			programmer[i] = null;}
+		while (i<=jumlahProgrammer) {
+			programmer[i] = programmer[i+1];
+			i++;
+		}
 	}
 }
