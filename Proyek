@@ -1,0 +1,14 @@
+public class Proyek {
+	private Programmer[] programmer;
+	private Tugas[] tugas;
+	
+	public void addProgrammer(Programmer p){
+	
+	}
+	public void createTugas(String tugas) {
+	
+	}
+	public void removeProgrammer(Programmer p){
+	
+	}
+}
