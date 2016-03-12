@@ -1,0 +1,7 @@
+public class Tugas {
+	private Programmer pelaksana;
+	
+	public void setPelaksana(Programmer p) {
+	
+	}
+}
