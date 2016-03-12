@@ -5,6 +5,13 @@ public class abstract Orang {
 	private String nama;
 	private String posisi;
 	
+	public Orang(long id, String nama, String posisi){
+		this.id = id;
+		this.nama = nama;
+		this.posisi = posisi;
+	}
+	public Orang(){
+	}
 	public String login(String username, String password){
 	
 	}
