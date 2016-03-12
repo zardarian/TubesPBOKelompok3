@@ -1,0 +1,11 @@
+public class abstract Orang {
+	private abstract String username;
+	private String password;
+	private long id;
+	private String nama;
+	private String posisi;
+	
+	public String login(String username, String password){
+	
+	}
+}
