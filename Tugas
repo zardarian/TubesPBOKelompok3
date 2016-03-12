@@ -1,7 +1,18 @@
 public class Tugas {
+	private String namaTugas;
 	private Programmer pelaksana;
+	private boolean status = false;
 	
+	public Tugas(String nama){
+		namaTugas = nama;
+	}
 	public void setPelaksana(Programmer p) {
-	
+		this.pelaksana = p;
+	}
+	public void setStatus() {
+		this.status = true;
+	}
+	public boolean getStatus() {
+		return status;
 	}
 }
