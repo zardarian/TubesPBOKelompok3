@@ -1,0 +1,7 @@
+public class Programmer {
+	private Tugas[] tugas;
+	
+	public void changeStatus(Tugas tugas){
+	
+	}
+}
