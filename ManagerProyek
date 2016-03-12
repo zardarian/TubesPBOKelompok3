@@ -1,0 +1,10 @@
+public class ManagerProyek {
+	private Proyek[] proyek;
+	
+	public void createProyek(Date deadline) {
+	
+	}
+	private void register(String username, String password, String repeat, long id, String nama, String Posisi){
+	
+	}
+}
