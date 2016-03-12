@@ -1,7 +1,16 @@
-public class Programmer {
+public class Programmer extends Orang{
 	private Tugas[] tugas;
+	private int jumlahTugas;
 	
+	public Programmer(){
+		super();
+	}
+	public Programmer(long id, String nama){
+		super(id,nama,"Programmer");
+	}
 	public void changeStatus(Tugas tugas){
-	
+		jumlahTugas++;
+		this.tugas[jumlahTugas] = tugas;
+		tugas[jumlahTugas].setStatus();
 	}
 }
